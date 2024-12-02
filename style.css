@@ -1,0 +1,236 @@
+.wrapper{
+width: 740px;
+margin: 0 auto;
+}
+
+.photo{
+    border-radius: 50%;
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+}
+
+h1,h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info {
+    display: flex; /*в строку*/
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /*прижались в правому краю*/
+    justify-content: center; /*центр по вертикали*/
+    gap: 5px; /*расстояние между объектами*/
+}
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    width: 740px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 17px;
+    width: 740px;
+    margin: 0 auto;
+    margin-bottom: 40px; /*Отступ снизу*/
+}
+
+.rtable{ 
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid rgba(90, 150, 69, 1);
+    margin: 0 auto;
+    width: 740px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    font-size: 17px;
+}
+
+th {
+    color: rgba(90, 150, 69, 1); /*Высота увел*/
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.thl {
+    border-right: 1px solid rgba(90, 150, 69, 1); /* Разделительные границы между ячейками */
+}
+
+.thr {
+    border-left: 1px solid rgba(90, 150, 69, 1); /* Разделительные границы между ячейками */
+}
+
+td {
+    width: 400px;
+    padding: 10px;
+    text-align: center; /*текст выравнивается на середину*/
+    position: relative;
+}
+
+.tdl {
+    border-top: 1px solid rgba(90, 150, 69, 1);
+    border-right: 1px solid rgba(90, 150, 69, 1); /* Разделительные границы между ячейками */
+}
+
+.tdr {
+    border-top: 1px solid rgba(90, 150, 69, 1);
+    border-left: 1px solid rgba(90, 150, 69, 1); /* Разделительные границы между ячейками */
+}
+
+ul, ol {
+    font-size: 17px;
+    font-style: bold;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 30%; /* Убираем внутренний отступ слева */
+    margin-top: 8px; /* Убираем внешний отступ сверху */
+    margin-bottom: 11px; /* Убираем внешний отступ снизу */
+  }
+  li {
+    margin-bottom: 0; /* Убираем внешний отступ снизу у элементов списка */
+  }
+  
+.cg {
+    cursor: pointer;
+}
+
+.cg:hover {
+    color: rgba(90, 150, 69, 1);
+}
+
+  .tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 740px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(90, 150, 69, 1);
+    color: white;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .lang {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 740px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .kart {
+    margin-top: 10px;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+  .shablon {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 129px;
+    height: 97px;
+  }
+
+  .shablon:hover {
+    box-shadow: 0 0 10px 5px rgba(90, 150, 69, 1);
+  }
+  
+  .txforma {
+    display: flex;
+    justify-content: center;
+    width: 740px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(90, 150, 69, 1);
+    color: white;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  ::placeholder {
+    color: #999;
+}
+
+.forma {
+    display: flex;
+    text-align: center;
+    width: 740px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.formain {
+    width: 740px;
+    color: rgba(184, 184, 184, 1);
+}
+
+input[type="name"] {
+    align-items: flex-start;
+    font-size: 14px;
+    width: 357px;
+    height: 31px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+input[type="numl"] {
+    font-size: 14px;
+    width: 357px;
+    height: 31px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    border: 0px;
+    background-color: rgba(90, 150, 69, 1);
+    width: 125px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
